@@ -1,0 +1,17 @@
+﻿<Window x:Class="WebDriverExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WebDriverExample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded" Closing="Window_Closing">
+    <UniformGrid Columns="1">
+        <Button Content="네이버 앞으로" Click="Button_Click"/>
+        <Button Content="구글 앞으로" Click="Button_Click_1"/>
+        <Button Content="네이버 홈으로" Click="Button_Click_2"/>
+        <Button Content="구글 홈으로" Click="Button_Click_3"/>
+        <Button Content="둘 다 사이즈 960 540" Click="Button_Click_4"/>
+        <Button Content="둘 다 사이즈 1920 1080" Click="Button_Click_5"/>
+    </UniformGrid>
+</Window>
